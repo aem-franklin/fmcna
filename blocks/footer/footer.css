@@ -12,3 +12,56 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+
+/*greefin*/
+.fmcna-freseniuscontainer-footer-bottom-wrapper {
+	text-align: center;
+}
+.fmcna-freseniuscontainer-footer-bottom-wrapper > div > div > div > p.button-container {
+	display: inline-block;
+}
+.fmcna-freseniuscontainer-footer-bottom-wrapper > div > div > div > p.button-container > strong > a {
+	color: #0033a0;
+	background-color: unset;
+	padding: 5px;
+	margin: 0;
+	border: unset;
+}
+.fmcna-freseniuscontainer-footer-bottom-wrapper > div > div:nth-child(1) > div > p:nth-child(1) {
+	font-size: 1.125rem;
+	line-height: 1.33;
+	color: #484c53;
+	font-family: Interstate,sans-serif;
+	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.fmcna-freseniuscontainer-logo-wrapper > div > div > div > picture > img {
+	width: 220px;
+    height: 46px;
+}
+.fmcna-freseniuscontainer-logo-wrapper > div > div > div > picture {
+	align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.fmcna-freseniuscontainer-footer-links-wrapper > div {
+	display: flex;
+    flex-direction: row;
+}
+.fmcna-freseniuscontainer-footer-links-wrapper > div > div {
+	flex: 1;
+    text-align: center;
+}
+.fmcna-freseniuscontainer-footer-links-wrapper > div > div > div > strong {
+	color: #0033a0!important;
+    font-weight: 900;
+    display: inline;
+}
+.fmcna-freseniuscontainer-footer-links-wrapper > div > div > div {
+	margin-bottom: 30px;
+}
+.fmcna-freseniuscontainer-logo-wrapper {
+	margin-bottom: 40px;
+    margin-top: 40px;
+}
