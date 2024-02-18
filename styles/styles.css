@@ -208,3 +208,73 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+/*Greefin */
+.fmcna-freseniuscontainer-news-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fmcna-freseniuscontainer-news-section > div {
+  position: relative;
+  flex: 1;
+  margin: 10px;
+  background-color: black;
+  height: 355.59px;
+}
+
+.fmcna-freseniuscontainer-news-section picture {
+  position: relative;
+}
+
+.fmcna-freseniuscontainer-news-section .button-container {
+  position: absolute; 
+  bottom: 35%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.fmcna-freseniuscontainer-news-section h3 {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+  padding: 10px 40px;
+  margin: 0;
+  font-size: 32px;
+}
+
+.fmcna-freseniuscontainer-news-section .button-container {
+  bottom: 10px; 
+}
+
+.fmcna-freseniuscontainer-news-section-container > div.fmcna-freseniuscontainer-news-section-wrapper > div > div > div:nth-child(1) > picture > img {
+  opacity:0.5;
+}
+
+.fmcna-freseniuscontainer-news-section-container > div.fmcna-freseniuscontainer-news-section-wrapper > div > div > div:nth-child(2) > p > a {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0;
+}
+
+.fmcna-freseniuscontainer-news-section-header-container> div.fmcna-freseniuscontainer-news-section-header-wrapper > div > div > div > h2 {
+  color: #0033a0!important;
+  margin-left: 10px;
+}
