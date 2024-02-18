@@ -450,7 +450,6 @@ main .section.highlight {
 }
 
 .fmcna-freseniuscontainer-image-left-container > div > div > div > div:nth-child(1) > picture > img {
-    padding-left: 20px;
     padding-bottom: 71px;
 }
 
@@ -471,4 +470,8 @@ main .section.highlight {
     border-radius: 4px;
     margin-bottom: 10px;
     text-decoration: none;
+}
+
+.fmcna-freseniuscontainer-image-left-container > div > div > div > div:nth-child(2) {
+    padding-left: 70px;
 }
