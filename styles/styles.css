@@ -344,3 +344,67 @@ main .section.highlight {
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
+/* Image right */
+.fmcna-freseniuscontainer-image-right-container {
+    background-color: #072762;
+    color: #fff;
+    padding: 0 32px !important;
+    position: relative;
+}
+
+.fmcna-freseniuscontainer-image-right-container:before {
+    --tw-bg-opacity: 1;
+    background-color: #fff;
+    content: "";
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: -2px;
+    width: 100%;
+}
+
+.fmcna-freseniuscontainer-image-right-container:after {
+    --tw-bg-opacity: 1;
+    background-color: #fff;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 6pc;
+}
+
+.fmcna-freseniuscontainer-image-right-container > div > div > div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fmcna-freseniuscontainer-image-right-container > div > div > div > div {
+    flex: 1;
+    z-index: 1;
+}
+
+.fmcna-freseniuscontainer-image-right-container > div > div > div > div:nth-child(1) > picture > img {
+    padding-left: 20px;
+    padding-bottom: 71px;
+}
+
+.fmcna-freseniuscontainer-image-right-container > div > div > div > div:nth-child(2) > h2 {
+    margin-top: 90px;
+}
+
+.fmcna-freseniuscontainer-image-right-container > div > div > div > div:nth-child(2) > p.button-container > strong > a {
+    font-size: 1pc;
+    line-height: 16px;
+    padding: 12px 27px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    background-color: #fff;
+    color: #0033a0;
+    border: 1.5px solid #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
