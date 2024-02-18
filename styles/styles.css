@@ -351,6 +351,7 @@ main .section.highlight {
     color: #fff;
     padding: 0 32px !important;
     position: relative;
+    margin: 30px 0;
 }
 
 .fmcna-freseniuscontainer-image-right-container:before {
@@ -415,6 +416,7 @@ main .section.highlight {
     color: #fff;
     padding: 0 32px !important;
     position: relative;
+    margin: 30px 0;
 }
 
 .fmcna-freseniuscontainer-image-left-container:before {
