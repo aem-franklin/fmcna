@@ -218,11 +218,12 @@ main .section.highlight {
 }
 
 .fmcna-freseniuscontainer-news-section > div {
-  position: relative;
-  flex: 1;
-  margin: 10px;
-  background-color: black;
-  height: 355.59px;
+	position: relative;
+	flex: 0 0 47%;
+	margin: 10px;
+	background-color: black;
+	height: 470.59px;
+	overflow: hidden;
 }
 
 .fmcna-freseniuscontainer-news-section picture {
@@ -256,7 +257,22 @@ main .section.highlight {
 }
 
 .fmcna-freseniuscontainer-news-section-container > div.fmcna-freseniuscontainer-news-section-wrapper > div > div > div:nth-child(1) > picture > img {
-  opacity:0.5;
+	opacity: 0.5;
+	transform: scale(1.7);
+	transform-origin: top left;
+}
+
+@media screen and (min-width: 1200px) {
+	.fmcna-freseniuscontainer-news-section > div {
+		flex: 1;
+		height: 355.59px;
+	}
+	
+	.fmcna-freseniuscontainer-news-section-container > div.fmcna-freseniuscontainer-news-section-wrapper > div > div > div:nth-child(1) > picture > img {
+		opacity: 0.5;
+		transform: unset;
+		transform-origin: unset;
+	}
 }
 
 .fmcna-freseniuscontainer-news-section-container > div.fmcna-freseniuscontainer-news-section-wrapper > div > div > div:nth-child(2) > p > a {
