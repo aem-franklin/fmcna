@@ -219,7 +219,7 @@ main .section.highlight {
 
 .fmcna-freseniuscontainer-news-section > div {
 	position: relative;
-	flex: 0 0 47%;
+	flex: 0 0 100%;
 	margin: 10px;
 	background-color: black;
 	height: 470.59px;
@@ -249,7 +249,13 @@ main .section.highlight {
   color: #fff;
   padding: 10px 40px;
   margin: 0;
-  font-size: 32px;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 1200px) {
+	.fmcna-freseniuscontainer-news-section h3 {
+		font-size: 32px;
+	}
 }
 
 .fmcna-freseniuscontainer-news-section .button-container {
@@ -261,7 +267,18 @@ main .section.highlight {
 	transform: scale(1.7);
 	transform-origin: top left;
 }
-
+@media screen and (min-width: 530px) {
+	.fmcna-freseniuscontainer-news-section > div {
+		flex: 0 0 47%;
+		margin: 5px;
+	}
+	
+}
+@media screen and (min-width: 768px) {
+	.fmcna-freseniuscontainer-news-section > div {
+		margin: 10px;
+	}
+}
 @media screen and (min-width: 1200px) {
 	.fmcna-freseniuscontainer-news-section > div {
 		flex: 1;
