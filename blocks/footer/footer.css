@@ -26,7 +26,7 @@ footer .footer p {
 	padding: 5px;
 	margin: 0;
 	border: unset;
-	text-wrap: wrap;
+	width: 100%;
 }
 .fmcna-freseniuscontainer-footer-bottom-wrapper > div > div:nth-child(1) > div > p:nth-child(1) {
 	font-size: 1.125rem;
