@@ -276,6 +276,9 @@ header nav .nav-tools {
 
 /*Greefin */
 @media only screen and (max-width: 899px) {
+	header nav {
+		gap: 0;
+	}
 	header nav .nav-hamburger button {
 		display: block;
 		position: absolute;
