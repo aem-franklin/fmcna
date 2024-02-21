@@ -713,3 +713,49 @@ main .section.highlight {
     padding-left: 26px;
     margin-left: 10px;
 }
+
+/* Mobile device alignment for teaser image right and left */
+@media only screen and (max-width: 899px) {
+	.fmcna-freseniuscontainer-image-right-container > div > div > div > div:nth-child(2) > h2 {
+		margin-top: 0px;
+	}
+	.fmcna-freseniuscontainer-image-right-container > div > div > div > div:nth-child(1) > picture > img {
+		padding: 0;
+	}
+	.fmcna-freseniuscontainer-image-right-container > div > div > div {
+		display: block;
+		position: relative;
+	}
+	.fmcna-freseniuscontainer-image-right-container:after {
+		display: none;
+	}
+	.fmcna-freseniuscontainer-image-right-aqua-blue-container > div > div > div > div:nth-child(2) > h2 {
+		margin-top: 0px;
+	}
+	.fmcna-freseniuscontainer-image-right-aqua-blue-container > div > div > div > div:nth-child(1) > picture > img {
+		padding: 0;
+	}
+	.fmcna-freseniuscontainer-image-right-aqua-blue-container > div > div > div {
+		display: block;
+		position: relative;
+	}
+	.fmcna-freseniuscontainer-image-right-aqua-blue-container:after {
+		display: none;
+	}
+	.fmcna-freseniuscontainer-image-left-container > div > div > div {
+		display: block;
+		position: relative;
+	}	
+	.fmcna-freseniuscontainer-image-left-container > div > div > div > div:nth-child(2) {
+		padding-left: 0px;
+	}
+	.fmcna-freseniuscontainer-image-left-container > div > div > div > div:nth-child(2) > h2 {
+		margin-top: 0px;
+	}
+	.fmcna-freseniuscontainer-image-left-container > div > div > div > div:nth-child(1) > picture > img {
+		padding-bottom: 0px;
+	}
+	.fmcna-freseniuscontainer-image-left-container:after {
+		display: none;
+	}
+}
