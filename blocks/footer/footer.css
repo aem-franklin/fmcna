@@ -19,6 +19,7 @@ footer .footer p {
 }
 .fmcna-freseniuscontainer-footer-bottom-wrapper > div > div > div > p.button-container {
 	display: inline-block;
+	width: 100%;
 }
 .fmcna-freseniuscontainer-footer-bottom-wrapper > div > div > div > p.button-container > strong > a {
 	color: #0033a0;
