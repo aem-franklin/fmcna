@@ -667,7 +667,7 @@ main .section.highlight {
     justify-content: flex-start;
     position: relative;
     width: 100%;
-    min-height: min(40rem, calc(100svh - var(--nav-height)));
+    min-height: 500px;
     padding: 0 10px;
 }
 @media only screen and (max-width: 899px) {
