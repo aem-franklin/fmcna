@@ -118,6 +118,11 @@ footer .footer p {
     height: 100%;
 	background: url('https://fmcna.com/etc.clientlibs/fmcna/clientlibs/clientlib-site/resources/images/icon-yt.svg') 50%/auto 17px no-repeat;
 }
+@media only screen and (max-width: 899px) {
+	.fmcna-freseniuscontainer-footer-links-wrapper > div {
+		display: block;
+	}
+}
 .fmcna-freseniuscontainer-footer-social-wrapper > div {
 	padding-bottom: 50px;
 	text-align: center;
