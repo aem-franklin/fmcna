@@ -318,6 +318,17 @@ main .section {
     box-sizing: border-box;
 }
 
+@media only screen and (max-device-width: 529px) {
+	.fmcna-freseniuscontainer-insights-hub-container > div.fmcna-freseniuscontainer-insights-hub-wrapper > div > div {
+		width: 100%;
+	}
+}
+@media only screen and (min-device-width: 530px) and (max-device-width: 899px) { 
+    .fmcna-freseniuscontainer-insights-hub-container > div.fmcna-freseniuscontainer-insights-hub-wrapper > div > div {
+		width: calc(50% - 10px);
+	}
+}
+
 .fmcna-freseniuscontainer-insights-hub-container > div.fmcna-freseniuscontainer-insights-hub-wrapper > div > div > div:nth-child(2) > h3 {
     font-size: 20px;
     line-height: 30px;
