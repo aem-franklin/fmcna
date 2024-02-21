@@ -65,3 +65,58 @@ footer .footer p {
 .fmcna-freseniuscontainer-logo-wrapper {
 	margin: 40px 0 !important;
 }
+.fmcna-freseniuscontainer-footer-social-wrapper > div > div > div > strong:nth-child(1) > a {
+	font-size: 0;
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #5d83d1;
+    margin-right: 3px;
+    transition: border-color .2s ease,background-color .2s ease;
+}
+.fmcna-freseniuscontainer-footer-social-wrapper > div > div > div > strong:nth-child(1) > a:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+	background: url('https://fmcna.com/etc.clientlibs/fmcna/clientlibs/clientlib-site/resources/images/icon-fb.svg') 50%/auto 17px no-repeat;
+}
+.fmcna-freseniuscontainer-footer-social-wrapper > div > div > div > strong:nth-child(2) > a {
+    font-size: 0;
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #0177b5;
+    margin-right: 3px;
+    transition: border-color .2s ease,background-color .2s ease;
+}
+.fmcna-freseniuscontainer-footer-social-wrapper > div > div > div > strong:nth-child(2) > a:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+	background: url('https://fmcna.com/etc.clientlibs/fmcna/clientlibs/clientlib-site/resources/images/icon-li.svg') 50%/auto 17px no-repeat;
+}
+.fmcna-freseniuscontainer-footer-social-wrapper > div > div > div > strong:nth-child(3) > a {
+    font-size: 0;
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #ef4e41;
+    margin-right: 3px;
+    -webkit-transition: border-color .2s ease,background-color .2s ease;
+    transition: border-color .2s ease,background-color .2s ease;
+}
+.fmcna-freseniuscontainer-footer-social-wrapper > div > div > div > strong:nth-child(3) > a:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+	background: url('https://fmcna.com/etc.clientlibs/fmcna/clientlibs/clientlib-site/resources/images/icon-yt.svg') 50%/auto 17px no-repeat;
+}
+.fmcna-freseniuscontainer-footer-social-wrapper > div {
+	padding-bottom: 50px;
+}
