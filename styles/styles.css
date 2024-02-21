@@ -661,6 +661,11 @@ main .section.highlight {
     min-height: min(40rem, calc(100svh - var(--nav-height)));
     padding: 0 10px;
 }
+@media only screen and (max-width: 899px) {
+	.carousel.fmcna-freseniuscontainer-carousel .carousel-slide {
+		flex: 0 0 100%;
+	}
+}
 .carousel.fmcna-freseniuscontainer-carousel .carousel-slide .carousel-slide-image picture {
 	position: unset;
     inset: unset;
@@ -757,5 +762,38 @@ main .section.highlight {
 	}
 	.fmcna-freseniuscontainer-image-left-container:after {
 		display: none;
+	}
+}
+/* Mobile Responsive - Hero Container */
+@media only screen and (max-width: 899px) {
+	.section.fmcna-freseniuscontainer-hero-container-container {
+		position: relative;
+		top: 0;
+		right: 0;
+		width: unset;
+	}
+	.section.hero-container > div > div > div > div > h1 {
+		left: 0;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.section.hero-container > div > div > div > div > h1 {
+		left: 0;
+		padding: 16px 16px 0px 16px;
+		top: 42pc;
+		width: unset;
+		position: absolute;
+		font-size: 32px;
+	}
+}
+@media only screen and (min-device-width: 600px) and (max-width: 899px) {
+	.section.hero-container > div > div > div > div > h1 {
+		left: 0;
+		padding: 32px 32px 0px 32px;
+		top: 41pc;
+		width: unset;
+		position: absolute;
+		font-size: 38px;
 	}
 }
